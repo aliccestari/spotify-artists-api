@@ -147,4 +147,4 @@ def adicionar_artista():
     return jsonify(novo_artista), 201
 
 if __name__ == '__main__':
-    app.run(port=5000, host='localhost', debug=True)
+    app.run(port=8000, host='localhost', debug=True)
